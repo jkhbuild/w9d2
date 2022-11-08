@@ -1,0 +1,17 @@
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+}
+
+ul li {
+    list-style-type: none;
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    background-color: gray;
+}
+
+ul li:hover {
+    background-color: yellow;
+}
